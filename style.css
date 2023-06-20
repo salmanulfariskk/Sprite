@@ -1,0 +1,186 @@
+
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.mainc.container-fluid {
+    
+    background-color: black;
+}
+.summerimage {
+    width: 273px;
+    height: 60px;
+    
+    
+}
+.cele {
+    color: white;
+    font-size: 70px;
+    
+}
+.button {
+    display: inline-block;
+    width: 170px;
+    height: 44px;
+    padding: 10px 40px;
+    font-size: 18px;
+    
+    text-decoration: none;
+    border: none;
+    color: black;
+    background-color:  rgb(255,209,0);
+    
+}
+.bottle{
+    width: 100%;
+    height: auto;
+}
+.drink{
+    padding-left: 100px;
+}
+.txt{
+    font-size: 60px;
+    color: black;
+}
+.shopnow{
+    margin-top: 50px;
+    text-decoration: none;
+    width: 151px;
+    height: 36px;
+    color: black;
+    background-color: rgb(255,209,0);
+    font-size: 13px;
+    font-weight: 400;
+    padding: 10px 38px;
+}
+
+.img-cont{
+    background-image: url('sprite-lymonade-bottle.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+.lstxt{
+    font-size: 59px;
+    line-height: 70px;
+    color: rgb(0,150,57);
+}
+.pic {
+    
+    height: 438px;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    background-color: #009B4E;
+    
+
+}
+.logo img{
+    width: 117px;
+    height: 44px;
+
+    
+    
+}
+
+.footerlist{
+    list-style-type: none;
+    padding: none;
+    gap: 10px;
+}
+
+.lsts a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.lsts h5{
+    color: #fff;
+}
+.lsts li{
+    list-style: none;
+}
+.lsts li a:hover{
+    color: black;
+}
+.by{
+    background-color: #009B4E;
+    text-align: center;
+    color: white;
+}
+.spans span{
+    border-right: 1px solid;
+}
+.spans span:last-child{
+    border-right: none;
+}
+span {
+    font-weight: 100;
+}
+.row i{
+    background-color: #fff;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #009B4E
+}
+.spans span:hover{
+    color: black;
+}
+.ff a:hover{
+    background-color:black;
+    color: #fff;
+}
+.fff a:hover{
+    color: white;
+    background-color:rgb(0,0,0);
+}
+
+.navbar-nav li a {
+    position: relative;
+}
+
+.navbar-nav li a:hover {
+    color: #000!important;
+}
+
+
+.navbar-nav li a::after {
+    content: "";
+    position: absolute;
+    bottom: -32px;
+    left: 0;
+    right: 0;
+    height: 4px;
+    transform: scaleY(0);
+    background-color: #000;
+}
+
+.navbar-nav li:hover a::after {
+    transform: scaleY(1);
+}
+
+
+@media only screen and (max-width: 789px){
+    .cele{
+        font-size: 30px!important;
+    }
+    .drink{
+        
+        padding: 10px;
+    }
+    .img-cont{
+        background-image: url('homepage-lymonade-mobile.png');
+        height: 50vh!important;
+    }
+}
+
+
